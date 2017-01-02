@@ -81,9 +81,7 @@
         </plugins>
     </build>
     <properties>
-        <!--<spring.version>3.0.5.RELEASE</spring.version>-->
         <spring.version>4.3.3.RELEASE</spring.version>
-        <!--<struts.version>2.3.16.3</struts.version>-->
         <javassist.version>3.11.0.GA</javassist.version>
 
         <aspectj.version>1.5.3</aspectj.version>
@@ -92,7 +90,6 @@
         <cglib.version>2.2.2</cglib.version>
         <jackson.version>1.9.13</jackson.version>
         <freemarker.version>2.3.16</freemarker.version>
-        <!--<ognl.version>3.0.6</ognl.version>-->
         <mybatis.version>3.4.1</mybatis.version>
         <mybatis-spring.version>1.3.0</mybatis-spring.version>
         <spring-data-redis.version>1.4.2.RELEASE</spring-data-redis.version>
@@ -130,8 +127,6 @@
         <commons-httpclient.version>3.0.1</commons-httpclient.version>
 
         <htmlparser.version>2.1</htmlparser.version>
-        <!--<httpclient.version>4.1.3</httpclient.version>-->
-        <!--<httpcore.version>4.1.4</httpcore.version>-->
         <httpclient.version>4.2</httpclient.version>
         <jaxen.version>1.1.1</jaxen.version>
 
@@ -257,26 +252,6 @@
             <artifactId>jedis</artifactId>
             <version>${jedis.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.apache.struts</groupId>-->
-        <!--<artifactId>struts2-core</artifactId>-->
-        <!--<version>${struts.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.struts</groupId>-->
-        <!--<artifactId>struts2-spring-plugin</artifactId>-->
-        <!--<version>${struts.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>org.apache.struts.xwork</groupId>-->
-        <!--<artifactId>xwork-core</artifactId>-->
-        <!--<version>${struts.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-        <!--<groupId>ognl</groupId>-->
-        <!--<artifactId>ognl</artifactId>-->
-        <!--<version>${ognl.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.mchange</groupId>
             <artifactId>c3p0</artifactId>
@@ -318,11 +293,6 @@
             <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.slf4j</groupId>-->
-        <!--<artifactId>slf4j-log4j12</artifactId>-->
-        <!--<version>${slf4j.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>net.sf.json-lib</groupId>
             <artifactId>json-lib</artifactId>
@@ -339,11 +309,6 @@
             <artifactId>qiniu-java-sdk</artifactId>
             <version>[7.0.0, 7.0.99]</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>com.aliyun.openservices</groupId>-->
-        <!--<artifactId>aliyun-openservices</artifactId>-->
-        <!--<version>${aliyun-openservices.version}</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -393,7 +358,6 @@
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <!--<version></version>-->
             <version>${lucene.version}</version>
         </dependency>
         <dependency>
@@ -523,11 +487,6 @@
             <artifactId>spring-instrument-tomcat</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <!--<dependency>-->
-        <!--<groupId>org.springframework</groupId>-->
-        <!--<artifactId>spring-struts</artifactId>-->
-        <!--<version>${spring.version}</version>-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>javax.servlet</groupId>
