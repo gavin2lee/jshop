@@ -12,6 +12,7 @@ import net.jeeshop.services.front.news.NewsService;
 import net.jeeshop.services.front.news.bean.News;
 import net.jeeshop.services.front.news.dao.NewsDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -25,6 +26,7 @@ public class NewsServiceImpl extends ServersManager<News, NewsDao> implements
 		NewsService {
     @Autowired
     @Override
+    @Qualifier("NewsDao")
     public void setDao(NewsDao newsDao) {
         this.dao = newsDao;
     }

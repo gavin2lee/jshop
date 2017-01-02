@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 /**
  * @author huangf
  */
-@Repository
+@Repository("NewsDao")
 public class NewsDaoImpl implements NewsDao {
     @Resource
 	private BaseDao dao;
